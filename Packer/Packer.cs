@@ -48,6 +48,7 @@ namespace com.mobuquity.packer
                 };
 
                
+
                 //Loop and prep each package.
                 foreach (var line in str)
                 {
@@ -85,8 +86,11 @@ namespace com.mobuquity.packer
                 var outputString = new StringBuilder();
                 outputString.Append(itemCount).Append("\n_\n");
                     
-                foreach (var lineItem in packages.LineItems.Where(lineItem => lineItem.PackageItems.Any()))
+                foreach (var lineItem in packages.LineItems)
                 {
+                    if (!lineItem.PackageItems.Any())
+                        continue;
+
                     foreach (var (packageItem,Index) in lineItem.PackageItems.Select((packageItem,Index)=>(packageItem,Index)))
                     {
                         outputString.Append(packageItem.Index);
