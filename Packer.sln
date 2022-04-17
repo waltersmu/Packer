@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Packer", "Packer\Packer.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{7C7657FF-CFB5-413A-9196-B9A57D3E9D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempo", "Tempo\Tempo.csproj", "{88B80BDC-91D6-486A-A579-5AB8572851D9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{7C7657FF-CFB5-413A-9196-B9A57D3E9D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7657FF-CFB5-413A-9196-B9A57D3E9D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7657FF-CFB5-413A-9196-B9A57D3E9D1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88B80BDC-91D6-486A-A579-5AB8572851D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88B80BDC-91D6-486A-A579-5AB8572851D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88B80BDC-91D6-486A-A579-5AB8572851D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88B80BDC-91D6-486A-A579-5AB8572851D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
